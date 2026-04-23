@@ -86,7 +86,7 @@ export function Header() {
         <div
           className={`lg:hidden ${isMenuOpen ? "max-h-screen" : "pointer-events-none max-h-0 opacity-0"} overflow-hidden transition-all duration-300 backdrop-blur-md`}
         >
-          <div className="mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:px-8 h-screen">
+          <div className="mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:px-8">
             <div className="rounded-3xl border border-white/10 p-4 shadow-2xl shadow-black/30">
               <nav className="grid gap-2">
                 {navItems.map((item) => (

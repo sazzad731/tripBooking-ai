@@ -23,18 +23,14 @@ export default function Hero() {
           Explore the world
         </div>
 
-        <h1 className="mt-8 max-w-4xl text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
+        <h1 className="mt-8 text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl mb-5">
           Your Gateway to Extraordinary Adventures
         </h1>
 
-        <p className="mt-4 max-w-3xl text-sm leading-6 text-white/85 sm:text-base lg:text-lg">
+        <p className="mt-4 max-w-3xl text-sm leading-6 text-white sm:text-base lg:text-2xl font-medium">
           Pack your bags and let Travila redefine your travel experience. Where
           every journey is a story waiting to be told
         </p>
-
-        <div className="mt-10 w-full lg:absolute lg:bottom-0 lg:left-1/2 lg:max-w-5xl lg:-translate-x-1/2 lg:translate-y-1/2">
-          {/* <SearchPanel /> */}
-        </div>
       </div>
     </section>
   );
