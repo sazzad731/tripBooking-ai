@@ -19,12 +19,12 @@ export function Header() {
 
   return (
     <header className="absolute inset-x-0 top-0 z-40">
-      <div className="bg-brand-primary px-4 py-2 text-center text-base font-normal text-white sm:text-xs">
+      <div className="bg-brand-primary px-4 py-2 text-center text-base font-normal text-white sm:text-xs hidden sm:block">
         Autodesigner 2.0 is here. The most popular UI generator just got even
         better!
       </div>
 
-      <div className="relative border-b border-white/10 bg-slate-950/35 backdrop-blur-md">
+      <div className="relative border-b border-white/10 bg-black/30">
         <div className="mx-auto flex max-w-427.5 items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
           <Link href="/" className="shrink-0">
             <Image
@@ -84,9 +84,9 @@ export function Header() {
 
         {/* Mobile menu */}
         <div
-          className={`lg:hidden ${isMenuOpen ? "max-h-screen" : "pointer-events-none max-h-0 opacity-0"} overflow-hidden transition-all duration-300`}
+          className={`lg:hidden ${isMenuOpen ? "max-h-screen" : "pointer-events-none max-h-0 opacity-0"} overflow-hidden transition-all duration-300 backdrop-blur-md`}
         >
-          <div className="mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:px-8 h-screen">
             <div className="rounded-3xl border border-white/10 p-4 shadow-2xl shadow-black/30">
               <nav className="grid gap-2">
                 {navItems.map((item) => (
@@ -94,7 +94,7 @@ export function Header() {
                     key={item.label}
                     href={item.href}
                     onClick={() => setIsMenuOpen(false)}
-                    className="rounded-2xl border border-white/10 bg-black/5 px-4 py-3 text-sm font-medium text-black/90 transition hover:bg-white/10 text-center"
+                    className="rounded-2xl border border-white/10 bg-black/5 px-4 py-3 text-sm font-medium text-white/90 transition hover:bg-white/10 text-center"
                   >
                     {item.label}
                   </a>
@@ -104,7 +104,7 @@ export function Header() {
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 <button
                   type="button"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-sm font-medium text-black/90 transition hover:bg-white/15"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-sm font-medium text-white/90 transition hover:bg-white/15"
                 >
                   <Search className="h-4 w-4" />
                   Search
