@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import Hero from "@/components/Hero";
 import SpecialTripsOffers from "@/components/SpecialTripsOffers";
 import TopRatedHotels from "@/components/TopRatedHotels";
+import TravelDeals from "@/components/TravelDeals";
 import TrustedBy from "@/components/TrustedBy";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       <Destinations />
       <FeaturedTours />
       <SpecialTripsOffers />
-      <TopRatedHotels/>
+      <TopRatedHotels />
+      <TravelDeals/>
     </>
   );
 }

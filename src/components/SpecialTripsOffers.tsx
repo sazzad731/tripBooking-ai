@@ -59,7 +59,7 @@ export default function SpecialTripsOffers() {
   ];
 
   return (
-    <section className="relative w-full py-12">
+    <section className="relative w-full py-30.25">
       <div className="relative max-w-306 mx-auto px-4 md:px-6 flex items-center group">
         {/* Navigation - Left Button */}
         <button
