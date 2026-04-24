@@ -3,6 +3,7 @@ import FeaturedTours from "@/components/FeaturedTours";
 import { Header } from "@/components/Header";
 import Hero from "@/components/Hero";
 import SpecialTripsOffers from "@/components/SpecialTripsOffers";
+import Sponsore from "@/components/Sponsore";
 import TopRatedHotels from "@/components/TopRatedHotels";
 import TravelDeals from "@/components/TravelDeals";
 import TrustedBy from "@/components/TrustedBy";
@@ -17,7 +18,8 @@ export default function Home() {
       <FeaturedTours />
       <SpecialTripsOffers />
       <TopRatedHotels />
-      <TravelDeals/>
+      <TravelDeals />
+      <Sponsore/>
     </>
   );
 }
