@@ -12,7 +12,7 @@ export default function Destinations() {
     {
       name: "Amsterdam",
       tours: 356,
-      path: "/popular-destinations/venice.png",
+      path: "/popular-destinations/Venice.png",
     },
     {
       name: "Budapest",
