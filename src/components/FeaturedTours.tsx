@@ -36,8 +36,7 @@ export default function FeaturedTours() {
       duration: "2 days 3 nights",
       guests: "4-6 guest",
       price: "$48.25",
-      image:
-        "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=500&auto=format&fit=crop",
+      image: "/featured-tours/featured1.png",
     },
     {
       badge: "Best Sale",
@@ -47,8 +46,7 @@ export default function FeaturedTours() {
       duration: "3 days 3 nights",
       guests: "4-6 guest",
       price: "$17.32",
-      image:
-        "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=500&auto=format&fit=crop",
+      image: "/featured-tours/featured2.png",
     },
     {
       badge: "25% Off",
@@ -58,8 +56,7 @@ export default function FeaturedTours() {
       duration: "7 days 6 nights",
       guests: "4-6 guest",
       price: "$15.63",
-      image:
-        "https://images.unsplash.com/photo-1474433188271-d3f339f41911?q=80&w=500&auto=format&fit=crop",
+      image: "/featured-tours/featured3.png",
     },
     {
       badge: "New",
